@@ -1,3 +1,8 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
 <LinearLayout xmlns:android
     ="http://schemas.android.com/apk/res/android"
     xmlns:tools
@@ -27,10 +32,11 @@
         android:text="@string/opcion3"
         android:onClick="mispinner"
         />
-    <Button android:id="@+id/button02"
+    <Button
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:text="@string/opcion2"/>
+        android:text="@string/manipulacion"
+        android:onClick="manipulacion"/>
     <Button
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
@@ -41,9 +47,17 @@
         android:layout_width="match_parent"
         android:text="@string/Acercade"
         android:onClick="AcercaDe"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/comunicacion_entre_actividades"
+        android:onClick="comunicacio"/>
+
     <Button android:id="@+id/button03"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:text="@string/Salir"/>
 
 </LinearLayout>
+</ScrollView>

@@ -68,4 +68,15 @@ public class Actividad3 extends AppCompatActivity {
         alert.show();
     }
 
+    public void manipulacion(View view) {
+        startActivity(new Intent(this, manipulacion.class));
+    }
+
+    public void salir(View view){
+        finish();
+    }
+
+    public void comunicacio(View view) {
+        startActivity(new Intent(this, Comunicacion1.class));
+    }
 }

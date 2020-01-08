@@ -23,7 +23,7 @@
         android:hint="Escribir algun dato adicional aqui"
         android:textSize="30sp"
         android:focusable="true"
-        android:inputType="number"
+        android:inputType="text"
         android:layout_marginBottom="20dp"
         />
 </RelativeLayout>

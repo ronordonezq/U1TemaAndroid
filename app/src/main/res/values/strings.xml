@@ -8,5 +8,7 @@
     <string name="opcion3">Mi Spinner</string>
     <string name="dialogo">Mi dialogo</string>
     <string name="Acercade">Acerca de </string>
+    <string name="manipulacion">manipulacion entre actividades</string>
+    <string name="comunicacion_entre_actividades">Comunicacion entre actividades</string>
 
 </resources>
